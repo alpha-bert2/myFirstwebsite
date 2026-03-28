@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <link rel="stylesheet" href="pseudo.css">
+    <link rel="shortcut icon" href="icons8-adobe-acrobat-reader-48.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      
+</head>
+<body>
+    <!--
+        header of the landing page ,
+        it containers the nav that help
+        in navigating the page
+    -->
+    <header>
+        <!--my nav bar-->
+        <nav class="mainHead">
+            <div class="logo">
+                <span class="material-symbols-outlined">
+                    local_library
+                </span>                 
+                <H1>Learn</H1>
+            </div>
+            <ol class="listLink">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Scope</a></li>
+                <li><a href="#">Animations</a></li>                
+            </ol>
+            <div class="iconDiv">
+                <span class="material-symbols-outlined">
+                    notifications
+                </span>
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--
+        this section is the home my landing page,
+        it contians the two sub divs
+        -->
+        <section id="mainMan">
+            <div id="mainLand">
+                <div class="HomeLand">
+                    <div class="text">
+                         <h3>Learn</h3>
+                         <h1>
+                            The magic Pseudo elements 
+                            bring to your website
+                         </h1>
+                         <p>
+                            Take your seats and relax while 
+                            we take you through pseudo elements
+                            and it's properties
+                         </p>
+                         <button>Let's go</button>
+                    </div>
+                    <div class="imageLand">
+                        <img src="./imageass/pngtree-programming-clipart-cartoon-young-man-with-headphones-working-on-computer-illustration-png-image_11063931.png" alt="">
+                    </div>
+                </div>
+                <div class="sponLand">
+                    <h3>Our</h3>
+                    <h2>Sponsers</h2>
+                    <div class="spon">
+                        <img src="./imageass/dropbox.png" alt="">
+                        <img src="imageass/google.png" alt="">
+                        <img src="./imageass/layers.png" alt="">
+                        <img src="./imageass/linkedin.png" alt="">
+                        <img src="./imageass/reddit.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--
+            scope section
+            it entails summary of pseudo code elements
+        -->
+        <section id="mainScope">
+            <div class="twoScopes">
+                <h4>The Scope</h4>
+                <h2>Of Pseudo Elements</h2>
+                <div class="scopies">
+                    <!--text pseudo elements div-->
+                    <div class="scope scope1">
+                        <span class="material-symbols-outlined">
+                            text_fields
+                        </span>
+                        <h3>Text css Pseudo elements</h2>
+                        <p>
+                            It is used to style a specific
+                            part of a text cotent ,such as the 
+                            first line or the first letter
+                        </p>
+                        <span class="material-symbols-outlined">
+                            arrow_right_alt
+                        </span>
+
+                    </div>
+                    <!--contents pseudo element div-->
+                    <div class="scope scope2">
+                        <span class="material-symbols-outlined">
+                            content_paste_search
+                        </span>
+                        <h3>Content css Pseudo elements</h3>
+                        <p>
+                            It allows you to insert contents before and after 
+                            an element .And it can be of any format 
+                        </p>
+                        <span class="material-symbols-outlined">
+                            arrow_right_alt
+                        </span>
+                    </div>
+                    <!--marker pseudo element div-->
+                    <div class="scope scope3">
+                        <span class="material-symbols-outlined">
+                            done_outline
+                        </span>
+                        <h3>The marker pseudo element</h3>
+                        <p>
+                            The ::marker pseudo element is used to 
+                            style the list item marker 
+                        </p>
+                        <span class="material-symbols-outlined">
+                            arrow_right_alt
+                        </span>
+                    </div>
+                    <div class="scope scope4">
+                        <span class="material-symbols-outlined">
+                            more
+                        </span>
+                        <h3>Other pseudo elements </h3>
+                        <p>
+                            There are more pseudo elements,
+                            the :: selection and ::invaild 
+                            pseudo elements are examples 
+                        </p>
+                        <span class="material-symbols-outlined">
+                            arrow_right_alt
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--
+            the illustrations section this section
+            contains pseudo elements with examples 
+        -->
+            <section id="illus">
+                <div class="subIllus">
+                    <h3>Illustrating</h3>
+                    <h2>How pseudo elements work with selectors</h2>
+                    <div class="twoIllus">
+                        <!--display div for first letter pseudo element-->
+                        <div class="childIllus">
+                            <h1>::First-letter & ::First-line</h1>
+                            <p>
+                                These text pseudo elements help in styling a targeted element                              
+                                <span>
+                                    h1:first-letter{
+                                    font-size:40px;
+                                    color:orangered;
+                                    }
+                                </span>
+                                will change the color frist letter of the selector H1 
+                                <span>
+                                    h1:first-line{
+                                    font-size:40px;
+                                    color:orangered;
+                                    }
+                                </span>
+
+                                will change the color and the font size of the first line of the h1 
+                             sector
+                            </p>
+                        </div>
+                        <!--display div for first line pseudo element-->
+                        <div class="childIllus2">
+                            <div class="display display1">
+                                <h3>Display for</h3>
+                                <h2>h1:first-letter</h2>
+                                <span>
+                                    <h1>I love coding</h1>
+                                </span>
+                            </div>
+                            <div class="display display2">
+                                <h3>Display for</h3>
+                                <h2>h1:first-line</h2>
+                                <span>
+                                    <h1>I love coding</h1>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--
+                why choose us section it contains
+                two divs one that contains the image and the other ,contains texts
+            -->
+            <section id="why">
+                <div class="subwhy">
+                    <h3>Why </h3>
+                    <h1>Choose us as your learning Pal</h1>
+                    <!--div for the why image-->
+                    <div class="imageMark">
+                        <div class="image">
+                            <img src="./imageass/whyme.png" alt="">
+                        </div>
+                        <!--this div contains the text-->
+                        <div class="mark">
+                            <h2>This is how the <span>::marker</span> pseudo element works</h2>
+                            <p>
+                                It helps in styling list items ,especially their markers.
+                                Marker is the way lists are presented ,ordered lists have their 
+                                default marker set to numbers while unordered list have theirs set
+                                as filled circles.
+                            </p>
+                            <strong>Eg</strong>
+                            <ol>
+                                <li>You chose us because we are practical</li>
+                                <li>We have a user friendly interface</li>
+                                <li>We make sure you understand</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <!--
+        footer area ,it contains a summary of the landing
+        page and other links
+    -->
+    <footer>
+        <div class="mainFoot">
+            <div class="top">
+                <div class="toper top1">
+                    <!--summary area-->
+                    <div class="logo2">
+                        <span class="material-symbols-outlined">
+                            local_library
+                        </span>   
+                        <h1>Learn</h1>
+                    </div>
+                    <p>
+                        We help to brodern your horizons
+                        on some aspect of  HTML and CSS
+                    </p>
+                    <div class="icons">
+                       <i class="fa-brands fa-facebook-f"></i>
+                       <i class="fa-brands fa-x-twitter"></i>
+                       <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+                <div class="toper top2">
+                    <h2>Scope</h2>
+                    <ol>
+                        <li>Content Pseudo</li>
+                        <li>Text Pseudo</li>
+                        <li>Marker Pseudo</li>
+                        <li>Invaild Pseudo</li>
+                    </ol>
+                </div>
+                <div class="toper top3">
+                    <h2>Animation</h2>
+                    <ol>
+                        <li>Scale</li>
+                        <li>Rotate</li>
+                        <li>Perspective</li>
+                        <li>Scale X</li>
+                    </ol>
+                </div>
+                <div class="toper top4">
+                    <h3>Subscribe now</h3>
+                    <form action="">
+                        <input type="email" placeholder="enter email">
+                    </form>
+                </div>
+            </div>
+            <!--terms and conditions-->
+            <div class="down">
+                <ol>
+                    <li>Terms and Service</li>
+                    <li>Policy and Privacy</li>
+                </ol>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

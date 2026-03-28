@@ -1,0 +1,44 @@
+/*global styling for css*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*
+    css styling for maindiv 
+    and its sub divs
+*/
+#mContainer{
+    position: relative;
+    min-height: 90vh;
+    border: 1px solid blue;
+    width: 100%;
+}
+
+.cat{
+    width: 7rem;
+    height: 7rem;
+    border: solid 1px brown;
+}
+.cat1{
+    position: static;
+    left: 50px;
+    top: 25px;
+}
+.cat2{
+    position: fixed;
+    left: 25rem;
+    top: 17rem;
+
+}
+.cat3{
+    position: sticky;
+    left: 20rem;
+    top: 0rem;
+}
+.cat4{
+    position:absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}

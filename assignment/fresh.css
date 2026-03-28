@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Coiny&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*global styling in css*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    background-color: rgb(221, 208, 172);
+}
+/*css styling for icons in the header*/
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+/*css styling for the header*/
+#mainContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 9vh;
+    width: 90%;
+    margin: auto;
+}
+.logo{
+    display: flex;
+    flex: 1 1 16rem;
+    align-items: center;
+    h2{
+        color: orangered;        
+    }
+}
+.menu{
+    flex: 1 1 16rem;
+}
+.cartSearch{
+    flex: 1 1 5rem;
+}
+/*css styling for the home section of my landing page*/
+#homeLand{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 85vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0rem 7rem 0rem;
+    flex-wrap: wrap;
+}
+.textLand{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 16rem;
+    gap: 30px;
+    h1{
+        font-size: 80px;
+        line-height: 75px;
+    }
+    span{
+        color: orangered;
+    }
+    button{
+        background-color: orangered;
+        color: white;
+        border: 0px;
+        padding: 27px;
+        width: 52%;
+        border-radius: 50px;
+        font-size: larger;        
+    }
+    p{
+        width: 80%;
+        span{
+            color: rgb(1, 88, 1);
+            
+        }
+    }
+}
+.imageLand{
+    flex: 1 1 16rem;
+    img{
+        height: 32rem;
+    
+    }
+}
+/*css styling for product and service section*/
+#serviceProduct{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 85vh;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 1rem 0rem 2rem 0rem;
+    gap: 10px;
+}
+/*css for tomato card*/
+.mainTomato{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    flex-wrap: wrap;
+    background-color: white;
+    min-height: 30vh;
+    padding: 30px;
+    border-radius: 20px;
+    flex: 1, 1, 10rem;
+}
+.priceTomato{
+    display: flex;
+    gap: 5px;
+    button{
+        background-color: orangered;
+        color: white;
+        border: 0;
+        padding: px 5px;
+        border-radius: 10px;
+        height: 2rem;
+        width:4rem;
+    }
+    img{
+        height: 7rem;
+        width: 80%;
+    }
+}
+.textTomato{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2px;
+    span{
+        color: orangered;
+        font-weight: bold;
+    }
+    .price{
+        padding: 20px 0px;
+    }
+}
+/*css for carrot card*/
+.mainCarrot{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    flex-wrap: wrap;
+    background-color: white;
+    min-height: 30vh;
+    padding: 30px;
+    border-radius: 20px;
+    flex: 1, 1, 10rem;
+}
+.priceCarrot{
+    display: flex;
+    gap: 5px;
+
+    button{
+        background-color: orangered;
+        color: white;
+        border: 0;
+        padding: px 5px;
+        border-radius: 10px;
+        height: 2rem;
+        width:4rem;
+    }
+    img{
+        height: 7rem;
+        width: 80%;
+    }
+}
+.textCarrot{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2px;
+    span{
+        color: orangered;
+        font-weight: bold;
+    }
+    .price{
+        padding: 20px 0px;
+    }
+}
+/*css for greens*/
+.mainGreens{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    flex-wrap: wrap;
+    background-color: white;
+    min-height: 30vh;
+    padding: 30px;
+    border-radius: 20px;
+    flex: 1, 1 ,10rem;
+}
+.priceGreens{
+    display: flex;
+    gap: 5px;
+
+    button{
+        background-color: orangered;
+        color: white;
+        border: 0;
+        padding: px 5px;
+        border-radius: 10px;
+        height: 2rem;
+        width:4rem;
+    }
+    img{
+        height: 7rem;
+        width: 80%;
+    }
+}
+.textGreens{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2px;
+    span{
+        color: orangered;
+        font-weight: bold;
+    }
+    .price{
+        padding: 20px 0px;
+    }
+}
+/*css for shallot card*/
+.mainShallot{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    flex-wrap: wrap;
+    background-color: white;
+    min-height: 30vh;
+    padding: 30px;
+    border-radius: 20px;
+    flex: 1 1 10rem;
+}
+.priceShallot{
+    display: flex;
+    gap: 5px;
+
+    button{
+        background-color: orangered;
+        color: white;
+        border: 0;
+        padding: px 5px;
+        border-radius: 10px;
+        height: 2rem;
+        width:4rem;
+    }
+    img{
+        height: 7rem;
+        width: 80%;
+    }
+}
+.textShallot{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2px;
+    span{
+        color: orangered;
+        font-weight: bold;
+    }
+    .price{
+        padding: 20px 0px;
+    }
+}
+
+
+

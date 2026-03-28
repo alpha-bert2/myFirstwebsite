@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*global styling in css*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+html{
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+/*using flexbox display on grandPar*/  
+#grandPar{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+} 
+#navlin{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    min-height: 9vh;
+    
+}
+.toy{
+    display: flex;
+    margin: 0 10px;
+    flex-grow: 2;
+}
+#navlin2{
+    flex: 1 1 16rem;
+    display: flex;  
+    align-items: center;
+    justify-content: end;
+    gap: 1rem;
+    
+}
+.orderMe{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 16rem;
+    
+}
+.orderme2{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 16rem;
+}
+#navlin h2{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 16rem;
+    color: orangered;
+}
+button{
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    border: 0;
+}
+.mr{
+    padding: 10px;
+}
+/*css styling for our landing page*/
+#mainContainer{
+    min-height: 85vh;
+    width: 100%;
+    background-color:rgb(240, 240, 198);
+}
+.firstContainer{
+    width: 90%;
+    margin: auto;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.secondContainer{
+    width: 90%;
+    margin: auto;
+    min-height: 45vh;
+}
+.firstContainer h1{
+    font-size: 120px;
+    text-align: center;
+    line-height: 115px;
+    padding: 3rem 0rem;
+}
+.firstContainer h1 span{
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: orangered;
+}
+.secondContainer{
+    display: flex;
+    flex-wrap: wrap;
+    p{
+        font-size: 12px;
+    }
+}
+.secondFirst{
+    flex: 1 1 16rem;
+    img{
+        width: 100%;
+        height: 250px;
+    }
+}
+.secondDiv{
+    flex: 1 1 16rem;
+    padding: 1rem 2rem 0rem 2rem; 
+    background-color: white;   
+    border-radius: 2px;
+    height:250px ;
+    h3{
+        padding: 0.5rem 0rem;
+    }
+    p{
+        padding: 0.5rem 0rem;
+    }
+}
+.thirdDiv{
+    flex: 1 1 16rem;
+    padding-left: 1.5rem;
+    button{
+        padding: 1rem 3rem;
+    }    
+    p{
+        padding-bottom: 2rem;
+    }
+}
+/*
+    css styling for cards section
+*/
+#grandCard{
+
+}
+#mainCard{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin:auto; 
+    padding: 2rem 0rem;
+    min-height: 45vh;
+}
+.subDiv1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+.cardDiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+/*general styling for all cards in mainCard*/
+.card{
+    flex:1 1 16rem;
+    padding: 1rem;
+    box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.452);
+    border-radius: 4px;
+    h1{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 12px;
+    }
+    p{
+        font-size: 11px;
+        padding: 0.8rem 0rem;
+    }
+    hr{
+        margin-bottom: 0.8rem;
+    }
+    h4{
+        font-size: 11px;
+    }
+    span{
+        display: flex;
+        justify-content: space-between;
+        i{
+            font-size: 22px;
+        }
+    }
+    /*css styling for money momentum card*/
+}
+.card1{
+    background-color: orangered;
+    color: white;
+    transition:all 1s ease ;
+    h4{
+        color: black;
+    }
+    /*css styling for long term card*/
+}
+.card2{
+    background-color: rgb(240, 240, 198);
+    transition:all 1s ease ;
+    h4{
+        color:green;
+    }
+    /*css styling for focussed card*/
+}
+.card3{
+    background-color: black;
+    color: white;
+    transition:all 1s ease ;
+
+    h4{
+        color:yellow;
+    }
+}
+/*css styling for fixed income card*/
+.card4{
+    background-color: whitesmoke;
+    transition:all 1s ease ;
+    h4{
+        color: orangered;
+    }    
+}
+/*hover effect on the cards*/
+.card1:hover{
+    transform: scale(1.02);
+    opacity: 0.5;
+}
+.card2:hover{
+    transform: scale(1.02);
+    opacity: 0.5;
+    
+}
+.card3:hover{
+    transform: scale(1.02);  
+    opacity: 0.5;  
+}
+.card4:hover{
+    transform: scale(1.02); 
+    opacity: 0.5;  
+}
+/*
+    css styling for the footer
+*/
+footer{
+    background-color: rgb(240, 240, 198);
+}
+#mainDiv{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin:auto; 
+    padding: 3.5rem 0rem 3rem 0rem;
+    min-height: 45vh;
+    ol{
+        list-style: none;
+    }
+} 
+.contentDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.listDiv{
+    
+    h1{
+        font-size: 20px;
+        padding-bottom: 1rem;
+    }
+}
+.odd{
+    padding: 0px;
+    display: flex;
+    gap: 3px;
+    li{
+        padding: 2.5px 5px 2.5px 0px;
+    }
+}
+.listMe3{
+    flex: 1 1 16rem;
+    ol{
+        display: flex;
+        font-size: 30px;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    i{
+        flex: 1 1 5rem;
+    }
+}
+.listMe2{
+    flex: 2 1 16rem;
+    justify-content: center;
+}
+.listMe1{
+    flex: 2 1 16rem;
+}
+.lastDiv{
+    padding-top: 1rem;
+    ol{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+}
+
+/*
+    mobile responsiveness 
+    with media query
+*/
+/*tablet screen size*/
+@media (max-width:821px){
+    #navlin h2 {
+        text-align: center;      
+    }
+    #mainDiv{
+        min-height: 30vh;
+    }
+}
+/* oppo a9 screen size*/
+@media (max-width:400px){
+    .firstContainer{
+        h1{
+            font-size: 57px;
+            line-height: 65px;
+        }
+    }
+    #navlin2{
+        justify-content: center;
+        padding-bottom: 0.5rem;
+    }
+    .secondContainer{
+        padding-bottom: 2rem;
+        gap: 1rem;
+    }
+    .thirdDiv{
+        p{
+            padding: 0rem 0rem 0.5rem 0rem;
+        }
+    }
+}
+.subDiv2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ol{
+        display: flex;
+        flex: 1 1 16rem;
+        gap: 2rem;
+        list-style: none;
+    }
+    i{
+        display: flex;
+        flex: 1 1 16rem;
+        justify-content: end;
+    }
+}
