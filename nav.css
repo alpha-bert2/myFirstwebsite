@@ -371,3 +371,18 @@ footer{
         justify-content: end;
     }
 }
+/*samsung a15 screen size*/
+@media (max-width:412px){
+    .firstContainer h1{
+        font-size: 3.5rem;
+    }
+    .thirdDiv{
+        button{
+            margin-bottom: 1rem;
+        }
+    }
+    #navlin2{
+        display: flex;
+        justify-content: center;
+    }
+}
