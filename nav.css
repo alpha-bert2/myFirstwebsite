@@ -385,4 +385,9 @@ footer{
         display: flex;
         justify-content: center;
     }
+    .secondContainer{
+        display: flex;
+        gap: 1rem;
+        
+    }
 }
